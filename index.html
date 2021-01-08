@@ -5,35 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>spoiler js</title>
-    <script src="js/spoiler.js"></script>
+
     <style>
         html,body{
             font-family: 'Segoe UI', sans-serif;
         }
         .container{
-            border: 1px solid yellowgreen;
+            /* border: 1px solid yellowgreen; */
         }
         .spoiler{
-            display: none;
+            display: inline-block;
             background-color: aqua;
-            opacity: 1;
-            transition: opacity  0.2s;
+            opacity: 0;
+            height:  0;
+            width:   0;
+            overflow:hidden;
+            transition: opacity 0.6s ;
         }
         .spoiler.visible {
             display:inline;
+            height:auto;
+            width:auto;
             opacity: 1;
+        }
+         button{
+            background: linear-gradient(rgb(236, 236, 129), green);
+            color:white;
+            padding:3px;
+            font-weight: bold;
+            border:1.2 px solid coral;
+            cursor: pointer;
+
         }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <h3> Spoiler js </h3>
         <p>
             Lorem ipsum dolor sit amet consectetur <span class="spoiler">adipisicing elit</span>. Quibusdam ipsum dolore numquam libero distinctio quas
             in nihil voluptatum, <span class="spoiler">magnam</span> praesentium tempora beatae iusto enim ad hic unde minus <span class="spoiler">quidem!</span>
         </p>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati reiciendis voluptatem nobis ut magni, dolorem numquam ab <span class="spoiler">under </span> laborum recusandae nisi deleniti amet, magnam quis itaque, ipsam inventore. Quaerat, velit.Vero voluptate, enim unde eligendi culpa, minima ab optio ratione animi magnam facilis beatae nulla. <span class="spoiler">Voluptatem veniam</span> aliquam consectetur laboriosam, hic quo accusantium ducimus cupiditate accusamus enim sapiente similique nobis?
+        </p>
+
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati reiciendis voluptatem nobis ut magni, dolorem numquam ab <span class="spoiler">under </span> laborum recusandae nisi deleniti amet, magnam quis itaque, ipsam inventore. Quaerat, velit.Vero voluptate, enim unde eligendi culpa, minima ab optio ratione animi magnam facilis beatae nulla. <span class="spoiler">Voluptatem veniam</span> aliquam consectetur laboriosam, hic quo accusantium ducimus cupiditate accusamus enim sapiente similique nobis?
+        </p>
+
+
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati reiciendis voluptatem nobis ut magni, dolorem numquam ab <span class="spoiler">under </span> laborum recusandae nisi deleniti amet, magnam quis itaque, ipsam inventore. Quaerat, velit.Vero voluptate, enim unde eligendi culpa, minima ab optio ratione animi magnam facilis beatae nulla. <span class="spoiler">Voluptatem veniam</span> aliquam consectetur laboriosam, hic quo accusantium ducimus cupiditate accusamus enim sapiente similique nobis?
+        </p>
+
     </div>
 </body>
-
+    <script src="js/spoiler.js"></script>
 </html>

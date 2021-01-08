@@ -1,6 +1,4 @@
-window.addEventListener("load", () => {
-
-
+(function () {
 
     const btnTextContent = "afficher le spoiler"
     // on selectionne les span qui ont la classe .spoiler
@@ -30,4 +28,4 @@ window.addEventListener("load", () => {
     }
 
 
-})
+})()

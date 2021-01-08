@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spoiler js</title>
+    <script src="js/spoiler.js"></script>
+    <style>
+        html,body{
+            font-family: 'Segoe UI', sans-serif;
+        }
+        .container{
+            border: 1px solid yellowgreen;
+        }
+        .spoiler{
+            display: none;
+            background-color: aqua;
+            opacity: 1;
+            transition: opacity  0.2s;
+        }
+        .spoiler.visible {
+            display:inline;
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3> Spoiler js </h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur <span class="spoiler">adipisicing elit</span>. Quibusdam ipsum dolore numquam libero distinctio quas
+            in nihil voluptatum, <span class="spoiler">magnam</span> praesentium tempora beatae iusto enim ad hic unde minus <span class="spoiler">quidem!</span>
+        </p>
+    </div>
+</body>
+
+</html>

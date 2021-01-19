@@ -1,0 +1,19 @@
+{
+  "name": "spoiler",
+  "version": "1.0.0",
+  "description": "get spoilers before film,episode ended ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aminelch/spoiler-js.git"
+  },
+  "author": "aminelch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aminelch/spoiler-js/issues"
+  },
+  "homepage": "https://github.com/aminelch/spoiler-js#readme"
+}

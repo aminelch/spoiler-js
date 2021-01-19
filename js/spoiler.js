@@ -3,7 +3,7 @@ window.onload = () => {
     (function () {
 
         const btnTextContent = "afficher le spoiler"
-        // on selectionne les span qui ont la classe .spoiler
+        // on sélectionne les span qui ont la classe .spoiler
         let spans = document.querySelectorAll(".spoiler")
 
         // on parcours la liste des elements
